@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumia Labs - Innovative Technology Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css" />
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+     <header class="navbar">
+    <div class="container">
+      <h1 class="logo-name">Lumia Labs.</h1>
+      
+      <div class="nav-container">
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Search..." />
+          <button class="search-btn" id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#blogGrid">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About us</a></li>
+          </ul>
+          <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+        
+        <div class="auth-buttons">
+          <button class="login-btn">Log in</button>
+          <button class="signup-btn">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<!-- ........ Section-Hero Carousel ........ -->
+    <section class="hero">
+    <div class="hero-carousel">
+        <!-- Slide 1 -->
+        <div class="carousel-slide active">
+            <div class="hero-container">
+                <h1>Welcome to Lumia Labs</h1>
+                <p>Your journey to innovation starts here. Explore your way through <span class="blue">Lumia Labs.</span></p>
+                <button class="explore-btn">Explore Now</button>
+            </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="carousel-slide">
+            <div class="hero-container">
+                <h1>Cutting-Edge Research</h1>
+                <p>Discover our latest breakthroughs in technology.</p>
+              <p></p>
+                <button class="explore-btn">Learn More</button>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="carousel-slide">
+            <div class="hero-container">
+                <h1>Join Our Team</h1>
+                <p>Be part of something revolutionary.</p>
+                <button class="explore-btn">Careers</button>
+            </div>
+        </div>
+        
+        <!-- Carousel Controls -->
+        <button class="carousel-control prev" aria-label="Previous slide">&#10094;</button>
+        <button class="carousel-control next" aria-label="Next slide">&#10095;</button>
+        
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+            <span class="indicator active" data-slide-to="0"></span>
+            <span class="indicator" data-slide-to="1"></span>
+            <span class="indicator" data-slide-to="2"></span>
+        </div>
+    </div>
+</section>
+<br>
+  <!-- Blog Section -->
+  <section class="recent-posts">
+    <div class="container">
+      <h2>Recent blog posts</h2>
+      <div class="blog-grid" id="blogGrid">
+        <!-- Blog cards using  JS -->
+      </div>
+      <button class="load-more" id="loadMore">Loading more...</button>
+    </div>
+  </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Let's get started on something great</h2>
+                <p>Join over 4,000+ startups already growing with Untitled.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1 -->
+                <div class="footer-column">
+                    <h3>Lumia Labs.</h3>
+                    <ul>
+                        <li><a href="#">Director</a></li>
+                        <li><a href="#">Advisor</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Finance</a></li>
+                        <li><a href="#">Solutions</a></li>
+                        <li><a href="#">Trustees</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Refinance</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="footer-column">
+                    <h3>Lumia Labs.</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Businesses</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Finance</a></li>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footer-column">
+                    <h3>Lumia Labs.</h3>
+                    <ul>
+                        <li><a href="#">Director</a></li>
+                        <li><a href="#">Customer</a></li>
+                        <li><a href="#">Sales Centre</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Database</a></li>
+                        <li><a href="#">Website</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">AppsChat</a></li>
+                        <li><a href="#">Database</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="footer-column">
+                    <h3>Lumia Labs.</h3>
+                    <ul>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Governance</a></li>
+                        <li><a href="#">Logo</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Online</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Online</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Lumia Labs. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/lumia-labs-577a64371/"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Lumia-Labs1410"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>  
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
